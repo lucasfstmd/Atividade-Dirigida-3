@@ -1,7 +1,7 @@
 /*
- * autores: Lucas Fausto Medeiros
- *          Kaike da Silva Ivo
- *          Jose Jamilsom Ferreira da Silva
+ * @autores: Lucas Fausto Medeiros
+ *           Kaike da Silva Ivo
+ *           Jose Jamilsom Ferreira da Silva
  */
 
         // imports //
@@ -73,6 +73,7 @@ public class Quest1 { // Inicio da Classe principal
             File arquivo = new File(Arquivo);
             escreveArquivo(arquivo);
             System.out.println("\nArquivo existente.\n");
+            System.out.println();
             lerArquivo(arquivo);
         }else{
             File arquivo = new File(Arquivo);
@@ -83,5 +84,5 @@ public class Quest1 { // Inicio da Classe principal
             lerArquivo(arquivo);
         }
     }// Fim da classe main
-    
+
 }// Fim da classe principal
